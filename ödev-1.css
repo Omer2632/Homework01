@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Vina Sans", cursive;
+}
+body {
+  text-align: center;
+}
+header {
+  background-color: rgb(115, 156, 170);
+}
+#baslik-1 {
+  margin-bottom: 60px;
+  color: rgba(0, 0, 0, 0.831);
+  font-size: xxx-large;
+  text-shadow: -5px 4px 1px white;
+}
+
+nav.linkler a {
+  padding: 10px;
+  margin: 30px;
+  display: inline-block;
+  border-radius: 10px;
+  color: white;
+  background-color: gray;
+  text-decoration: none;
+  transition: color 0.2s ease-in-out;
+}
+nav.linkler a:hover {
+  color: black;
+  background-color: rgb(56, 101, 116);
+}
+
+.tanitim {
+  padding: 200px;
+  font-size: xx-large;
+}
+
+img {
+  width: 500px;
+  height: 300px;
+  margin: 20px;
+}
+main {
+  background-color: rgb(165, 196, 204);
+}
+footer {
+  background-color: rgb(126, 4, 4);
+}
+nav a:hover {
+  color: rgb(255, 250, 250);
+  background-color: rgb(242, 215, 180);
+  transition: color 0.4s ease-in-out;
+}
+#yorum {
+  background-color: rgb(242, 215, 180);
+}
+
+/* nav a:visited {
+  color: rgb(168, 179, 127);
+} */
+/* nav a:link {
+  color: rgb(249, 7, 7);
+} */
+nav a {
+  color: black;
+  display: inline-block;
+  width: 100px;
+  border-radius: 20px;
+  text-decoration: none;
+}
+#button:hover i {
+  display: inline-block;
+  color: rgba(227, 73, 12, 0.731);
+  cursor: pointer;
+  padding: 7px;
+  transition: 0.3s ease-in-out;
+}
+#button {
+  font-size: 30px;
+  color: rgb(165, 196, 204);
+}
